@@ -1,0 +1,31 @@
+__dirname - path to current directory
+__filename - file name
+require - function to use modules
+module - info about current module
+process - info about env where the program is being executed
+---------------------------------------------------------------------
+*Every file is module
+
+BUILT-IN-MODULES:
+-OS
+-Path
+-FS
+-Http
+--------------------------------------------------------------------
+OS module:
+-In os module we can get the information related to os for eg:
+uptime,ostype,ostotalmemory...
+
+PATH Module:
+-for defining the path,and printing the directory of the path
+---------------------------------------------------------------------
+fs(sync) module:
+-File handling is playing major role here.
+-readFileSync(),writeFileSync().
+-------------------------------------------------------------
+
+npm install <package name>
+npm i -g(global installation)
+npm init
+npm init -y
+
